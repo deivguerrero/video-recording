@@ -1,0 +1,59 @@
+body {
+    width: 100vw!important;
+    height: 100vh!important;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+}
+
+#video-capture {
+    width: 480px;
+    height: 648px;
+    position: relative;
+}
+
+#frase-box {
+    position: absolute;
+    color: #d5d7e2;
+    background: #52525259;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#frase-container {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 42px;
+}
+
+video {
+    width: 480px;
+    height: 648px;
+    background: black;
+}
+
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 100;
+    width: 480px;
+    height: 72px;
+    left: 0;
+    bottom: 20px;
+}
+
+button {
+    width: 64px;
+    height: 52px;
+    margin: 3px;
+}
