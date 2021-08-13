@@ -71,6 +71,7 @@ function saveVideo(event) {
 }
 
 function handleDataAvailable(event) {
+  console.log("AQUIII");
   if (event.data && event.data.size > 0) {
     recordedBlobs.push(event.data);
   }
